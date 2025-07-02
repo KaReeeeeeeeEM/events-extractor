@@ -8,7 +8,7 @@ import connectDB from "./lib/db.js";
 import extractorRoutes from "./routes/extract.js";
 
 dotenv.config();
-connectDB();
+// connectDB();
 
 // Create uploads directory if it doesn't exist
 const uploadsDir = './uploads';
